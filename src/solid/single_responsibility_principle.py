@@ -45,9 +45,10 @@ class Owner:
         cat.cleanliness_level += 30
 
 
-cat = Cat("fred")
-owner = Owner()
+if __name__ == "__main__":
+    cat = Cat("fred")
+    owner = Owner()
 
-print(f"cat clean level: {cat.cleanliness_level}")
-owner.clean_cat(cat)
-print(f"cat clean level: {cat.cleanliness_level}")
+    print(f"cat clean level: {cat.cleanliness_level}")
+    owner.clean_cat(cat)
+    print(f"cat clean level: {cat.cleanliness_level}")
