@@ -4,6 +4,9 @@ Liskov's Substitution Principle
 Let Φ(x) be a property provable about objects x of type T. 
 Then Φ(y) should be true for objects y of type S where S 
 is a subtype of T.
+
+Child class objects should be able to replace parent class objects
+ without breaking the integrity of the application.
 """
 
 
