@@ -6,7 +6,7 @@ Then Φ(y) should be true for objects y of type S where S
 is a subtype of T.
 
 Child class objects should be able to replace parent class objects
- without breaking the integrity of the application.
+without breaking the integrity of the application.
 """
 
 
